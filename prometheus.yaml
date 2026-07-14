@@ -17,9 +17,6 @@ alerting:
 rule_files:
    - /opt/bitnami/prometheus/conf/redis_alerts.yaml
    - /opt/bitnami/prometheus/conf/rules.yaml
-   - /opt/bitnami/prometheus/conf/redis_alerts.yaml
-   - /opt/bitnami/prometheus/conf/redis_alerts.yaml
-   - /opt/bitnami/prometheus/conf/redis_alerts.yaml
    - /opt/bitnami/prometheus/conf/alerts.yaml
 
 # A scrape configuration containing exactly one endpoint to scrape:
