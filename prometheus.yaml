@@ -34,8 +34,8 @@ scrape_configs:
       password: EMdkh7T8PWsgBaHsonrO
     # Optional TLS configuration; see https://prometheus.io/docs/operating/configuration/#<tls_config>
     #tls_config:
-    static_configs:
-      - targets: ['appz.1276c99e.lowtouch.cloud:443/logs.alpha-dev/']
+    #static_configs:
+     # - targets: ['appz.1276c99e.lowtouch.cloud:443/logs.alpha-dev/']
       
   - job_name: 'node-exporter'
     static_configs:
