@@ -22,7 +22,10 @@ scrape_configs:
   # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
     static_configs:
-    - targets: ['10.0.2.72:9090']
+    - targets: ['10.0.2.72:31531']
+  - job_name: 'tomcat'
+    static_configs:
+    - targets: ['10.0.2.72:30411']
   - job_name: 'graylog'
     scrape_interval: 15s
     metrics_path: '/api/plugins/org.graylog.plugins.metrics.prometheus/metrics'
